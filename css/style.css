@@ -71,6 +71,14 @@ p {
    
 }
 
+/* .tile img{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    display: block;
+    width: 100%;
+    position: absolute;
+} */
+
 .row h3{
     padding-top: 10px;
     text-align: center;
