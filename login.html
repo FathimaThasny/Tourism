@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN | SIGN UP</title>
+    <link rel="stylesheet" href="/Tourism/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+</head>
+<body background="./images/loginbg.jpg">
+    <nav class="navbar navbar-expand-lg bg-secondary fixed-top pt-0">
+        <div class="container-fluid">
+          <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <a href="home.html"> <img src="/Tourism/images/kerala-tourism-title.png" alt="logo"></a>
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item p-2">
+                <a class="nav-link active text-white" href="home.html">Home</a>
+              </li>
+              <li class="nav-item p-2">
+                <a class="nav-link active text-white" href="districts.html">Where to Go</a>
+              </li>
+              <li class="nav-item p-2">
+                <a class="nav-link active text-white" href="#">Login | Sign Up</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <form  onsubmit="return lvalidate()">
+<div class="login-wrap">
+	<div class="login-html">
+		<input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">LOG IN</label>
+		<input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">SIGN UP</label>
+		<div class="login-form">
+			<div class="sign-in-htm">
+				<div class="group">
+					<label for="user" class="label">Email</label>
+					<input id="email" name="email" type="email" class="input" required>
+				</div>
+				<div class="group">
+					<label for="pass" class="label">Password</label>
+					<input id="password" type="password" name="password" class="input" data-type="password" required>
+				</div>
+				<div class="group">
+					<input id="check" type="checkbox" class="check" checked>
+					<label for="check"><span class="icon"></span> Keep me Signed in</label>
+				</div>
+				<div class="group">
+				 <input type="submit" class="button" value="Log In" >
+               
+				</div>
+</form>
+				<div class="hr"></div>
+				<div class="foot-lnk">
+					<a href="#forgot">Forgot Password?</a>
+				</div>
+			</div>
+
+
+
+
+            <form action="" onsubmit="return svalidate()">
+			<div class="sign-up-htm">
+				<div class="group">
+					<label for="user" class="label">Name</label>
+					<input name="username" id="user" type="text" class="input" required>
+				</div>
+				
+				<div class="group">
+					<label for="pass" class="label">Email Address</label>
+					<input  name="pass" id="semail" type="email" class="input" required>
+                    
+				</div>
+                <div class="group">
+					<label for="pass" class="label">Phone Number</label>
+					<input name="pass" id="phone" type="text" class="input" required>
+				</div>
+
+				<div class="group">
+					<label for="pass" class="label">Password</label>
+					<input  name="pass" id="password1" type="password" class="input" data-type="password" required>
+				</div>
+				<div class="group">
+					<label for="pass" class="label">Repeat Password</label>
+					<input id="password2" type="password" class="input" data-type="password" required>
+
+				</div>
+                <div class="group">
+					<input id="check" type="checkbox" class="check" checked>
+					<label for="check"><span class="icon"></span> I agree to the Terms and Conditions</label>
+				</div>
+                
+				
+				<div class="group">
+					<input type="submit" class="button" value="Sign Up">
+				</div>
+</form>
+<div class="foot-lnk">
+    <label for="tab-1">Already Member?</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
