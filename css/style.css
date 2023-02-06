@@ -218,7 +218,7 @@ body{
 
   .login-html{
     width:100%;
-    height:100%;
+    height:110%;
     position:absolute;
     padding:90px 70px 50px 70px;
     background:rgba(40,57,101,.9);
@@ -359,8 +359,53 @@ body{
     transform:rotate(0);
   }
   
+  /* .sign-up-htm .strengthmeter
+  {
+    position:relative;
+    bottom: 18px;
+    margin-top: 0px;
+    margin-left: 15px;
+    border-radius: 2px;
+    width: 92%;
+    height: 3px;
+    background-color: #eaeafd;
+  }
+
+  .sign-up-htm .strengthmeter::before{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 100%;
+    transition: 0.5S;
+    background: #dbe2ed;
+  }
+  .sign-up-htm.weak .strengthmeter::before{
+    width : 25%;
+    background: red;
+  }
+   */
+  /* .show{
+    position:fixed;
+    top: 310px;
+    right: 15px;
+    width: 40px;
+    height: 10%;
+    background: rgb(66, 68, 176);
+    border: 6px solid rgb(66, 68, 176);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .show::before{
+    content: 'show';
+    position: absolute;
+    font-size: .7em;
+    color: #fff;
+  } */
   .hr{
-    height:2px;
+    height:5px;
     margin:60px 0 50px 0;
     background:rgba(255,255,255,.2);
   }
